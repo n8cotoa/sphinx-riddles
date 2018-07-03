@@ -29,7 +29,7 @@ end
       # Game.clear
       game = Game.new
       # binding.pry
-      expect(game.riddle1).to(eq(Game.find(1)))
+      expect(game.riddle2).to(eq(Game.find(1)))
     end
   end
 end

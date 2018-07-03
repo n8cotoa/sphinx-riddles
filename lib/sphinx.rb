@@ -13,7 +13,7 @@ class Game
   end
 
   def self.find(id)
-    riddle_id = id.to_i - 1
+    riddle_id = id.to_i
     @@riddles.each do |riddle|
       if riddle == @@riddles[riddle_id]
         return riddle
