@@ -20,7 +20,11 @@ A web application that tests the users aptitude for riddles.
 ** Ruby 2.4.1
 
 ## Specs/Steps
-*specs here*
+- Hash of Riddles (riddle/answer)
+  - Or maybe 2 arrays - 1) riddles, 2) answers
+- the hash is a class variable @@
+- go sequentially through each riddle
+- The class will be Game: encompassing all the methods
 
 ## License
 
